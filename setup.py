@@ -1,45 +1,17 @@
 import os
 import elixr
-from setuptools import setup, find_packages
-
-
-here = os.path.abspath(os.path.dirname(__file__))
-with open(os.path.join(here, 'README.md')) as f:
-    README = f.read()
-with open(os.path.join(here, 'CHANGES.md')) as f:
-    CHANGES = f.read()
-
-
-requires = []
-tests_requires = [
-    'pytest',
-    'pytest-cov'
-]
+# from distutils.core import setup
+from setuptools import setup
 
 setup(
-    name='elixr',
-    version="1.0",
-    description='A python general purpose utility library',
-    long_description=README + '\n\n' + CHANGES,
-    author=elixr.__author__,
-    author_email='info@hazeltek.com',
-    maintainer='Abdul-Hakeem Shaibu',
-    maintainer_email='hkmshb@gmail.com',
-    url='https://bitbucket.org/hkmshb/elixr',
-    keywords='elixr, hazeltek elixr',
-    zip_safe=False,
-    packages=find_packages(),
-    platforms='any',
-    install_requires=requires,
-    extras_require={ 'testing': tests_requires },
-    classifiers=[
-        'Development Status :: *',
-        'Intended Audience :: Developers',
-        'Natural Language :: English',
-        'License :: ISV',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3.5'
-    ]
+  name = 'elixr',
+  packages = ['elixr'], # this must be the same as the name above
+  version = '0.1',
+  description = 'A python general purpose utility library',
+  author = 'Abdul-Hakeem Shaibu',
+  author_email = 'info@hazeltek.com',
+  url = 'https://github.com/babdulhakim2/elixr.git', # use the URL to the github repo
+  download_url = 'https://github.com/babdulhakim2/elixr.git', # I'll explain this in a second
+  keywords = ['testing', 'logging', 'example'], # arbitrary keywords
+  classifiers = [],
 )
-

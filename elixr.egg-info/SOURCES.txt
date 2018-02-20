@@ -12,8 +12,6 @@ elixr/utils.py
 elixr.egg-info/PKG-INFO
 elixr.egg-info/SOURCES.txt
 elixr.egg-info/dependency_links.txt
-elixr.egg-info/not-zip-safe
-elixr.egg-info/requires.txt
 elixr.egg-info/top_level.txt
 elixr/ext/__init__.py
 tests/test_core.py

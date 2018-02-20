@@ -2,31 +2,12 @@ Metadata-Version: 1.1
 Name: elixr
 Version: 0.1
 Summary: A python general purpose utility library
-Home-page: https://bitbucket.org/hkmshb/elixr
+Home-page: https://github.com/babdulhakim2/elixr.git
 Author: Abdul-Hakeem Shaibu
-Author-email: hkmshb@gmail.com
+Author-email: info@hazeltek.com
 License: UNKNOWN
+Download-URL: https://github.com/babdulhakim2/elixr.git
 Description-Content-Type: UNKNOWN
-Description: Elixr
-        =====
-        A collection of general purpose utility functions and classes that can be used
-        within scripts, web and desktop(?) applications.
-        
-        
-        0.1
-        ---
-        -  Defined AttrDict and extension hook for the import mechanism
-        
-        
-        0.0
-        ---
-        -  Initial version
-Keywords: elixr,hazeltek elixr
-Platform: any
-Classifier: Development Status :: *
-Classifier: Intended Audience :: Developers
-Classifier: Natural Language :: English
-Classifier: License :: ISV
-Classifier: Operating System :: OS Independent
-Classifier: Programming Language :: Python :: 2.7
-Classifier: Programming Language :: Python :: 3.5
+Description: UNKNOWN
+Keywords: testing,logging,example
+Platform: UNKNOWN
